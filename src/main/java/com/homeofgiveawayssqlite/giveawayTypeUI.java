@@ -23,12 +23,8 @@ public class giveawayTypeUI {
                     DBorderUI DBorderUI = new DBorderUI();
                     DBorderUI.orderTypeMenu(arvontaluonti.returnOption());
                 }
-                
-                else if (option.equals("no")) {
-                    System.out.println("Giveaways are currently organized by when they were added to the database.");
-                }
-                else {
-                    System.out.println("Invalid input, please try again!");
+                else if (option2.equals("no")) {
+                    System.out.println("\n Giveaways are currently organized by when they were added to the database.");
                 }
             }
             else {

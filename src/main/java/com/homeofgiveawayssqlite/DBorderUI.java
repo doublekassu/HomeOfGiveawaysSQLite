@@ -13,6 +13,7 @@ public class DBorderUI {
             System.out.print("\n How would you like to order the giveaways by? \n 0. Dont change the order \n 1. Ending soonest \n 2. Start date \n Type your choice and press ENTER: ");
             String option = scanner.nextLine();
             if (option.equals("0")) {
+                System.out.println("The order wasn't changed.");
                 break;
             }
             else if (option.equals("1") || option.equals("2")) {
