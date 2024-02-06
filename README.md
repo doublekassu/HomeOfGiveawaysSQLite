@@ -4,6 +4,7 @@ Welcome to using HomeOfGiveaways! The program shows you the best ongoing giveawa
 The demo uses an SQLite database instead of a cloud-based one because of cyber security reasons. Please contact me if you want more information of the full version that uses a cloud database!
 
 INSTRUCTIONS FOR RUNNING THE PROGRAM: Head to homeofgiveawayssqlite/target in your command line. Type: java -jar homeofgiveawayssqlite-1.0.jar
+
 The sqlite database information might be outdated!
 
 Enjoy easily entering giveaways at HomeOfGiveaways!
