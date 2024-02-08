@@ -15,8 +15,8 @@ public class giveawayTypeUI {
                 break;
             }
             else if (option.equals("1") || option.equals("2")) {
-                ArvontaLuonti arvontaluonti = new ArvontaLuonti(option);
-                arvontaluonti.arvontojenLuontiLisaysTulostus(option);
+                GiveawayTypeSelection arvontaluonti = new GiveawayTypeSelection(option);
+                arvontaluonti.typeSelection(option);
                 System.out.print("Would you like to organize the giveaways? Type yes or no: ");
                 String option2 = scanner.nextLine();
                 if (option2.equals("yes")) {

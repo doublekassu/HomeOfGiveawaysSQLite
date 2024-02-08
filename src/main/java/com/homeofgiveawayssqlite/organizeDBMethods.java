@@ -16,7 +16,6 @@ public class organizeDBMethods {
         this.password = "n09KKJa11117GQ0OoPmV7:,5tU(";
     }
 
-    //Muokkaa tämä siten, että metodi saa parametriksi Stringin, joka määrittää tyypin, jota haetaan. Esim parametri cs2skin tai tech.
     public void orderEndingSoonestDB(String type) {
         try {
             //Create the connection to the database and use table GIVEAWAYS

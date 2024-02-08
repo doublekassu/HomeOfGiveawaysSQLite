@@ -1,15 +1,16 @@
 package com.homeofgiveawayssqlite;
 
-public class ArvontaLuonti {
+public class GiveawayTypeSelection {
     private DatabaseMethods databaseMethods;
     private String option;
 
-    public ArvontaLuonti(String option){
+    public GiveawayTypeSelection(String option){
         this.databaseMethods = new DatabaseMethods();
         this.option = option;
     }
 
-    public void arvontojenLuontiLisaysTulostus(String option) {
+    //Database query depends on the user's prompt. GiveawayTypeMenu uses this method when choosing the type of giveaway to join.
+    public void typeSelection(String option) {
         if (option.equals("1")) {
             databaseMethods.printTypeGiveawaysDB("'CS2SKIN'");
             this.option = "'CS2SKIN'";
