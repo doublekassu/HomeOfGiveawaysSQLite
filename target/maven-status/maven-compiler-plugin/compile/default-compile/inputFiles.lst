@@ -1,9 +1,12 @@
 D:\HomeOfGiveawaysSQLite\homeofgiveawayssqlite\src\main\java\com\homeofgiveawayssqlite\DBorderUI.java
-D:\HomeOfGiveawaysSQLite\homeofgiveawayssqlite\src\main\java\com\homeofgiveawayssqlite\ArvontaLuonti.java
-D:\HomeOfGiveawaysSQLite\homeofgiveawayssqlite\src\main\java\com\homeofgiveawayssqlite\organizeDBMethods.java
-D:\HomeOfGiveawaysSQLite\homeofgiveawayssqlite\src\main\java\com\homeofgiveawayssqlite\Arvonta.java
-D:\HomeOfGiveawaysSQLite\homeofgiveawayssqlite\src\main\java\com\homeofgiveawayssqlite\giveawayTypeUI.java
+D:\HomeOfGiveawaysSQLite\homeofgiveawayssqlite\src\main\java\com\homeofgiveawayssqlite\GiveawayTypeSelection.java
+D:\HomeOfGiveawaysSQLite\homeofgiveawayssqlite\src\main\java\com\homeofgiveawayssqlite\OrganizeDBMethods.java
+D:\HomeOfGiveawaysSQLite\homeofgiveawayssqlite\src\main\java\com\homeofgiveawayssqlite\GiveawayTypeUI.java
 D:\HomeOfGiveawaysSQLite\homeofgiveawayssqlite\src\main\java\com\homeofgiveawayssqlite\MainClass.java
 D:\HomeOfGiveawaysSQLite\homeofgiveawayssqlite\src\main\java\com\homeofgiveawayssqlite\DatabaseMethods.java
+D:\HomeOfGiveawaysSQLite\homeofgiveawayssqlite\src\main\java\com\homeofgiveawayssqlite\AdminDatabaseMethods.java
+D:\HomeOfGiveawaysSQLite\homeofgiveawayssqlite\src\main\java\com\homeofgiveawayssqlite\DeleteGiveaway.java
 D:\HomeOfGiveawaysSQLite\homeofgiveawayssqlite\src\main\java\com\homeofgiveawayssqlite\UI.java
 D:\HomeOfGiveawaysSQLite\homeofgiveawayssqlite\src\main\java\com\homeofgiveawayssqlite\DataBaseQueries.java
+D:\HomeOfGiveawaysSQLite\homeofgiveawayssqlite\src\main\java\com\homeofgiveawayssqlite\AddGiveaway.java
+D:\HomeOfGiveawaysSQLite\homeofgiveawayssqlite\src\main\java\com\homeofgiveawayssqlite\Giveaway.java

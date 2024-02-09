@@ -1,8 +1,11 @@
-com\homeofgiveawayssqlite\organizeDBMethods.class
-com\homeofgiveawayssqlite\Arvonta.class
+com\homeofgiveawayssqlite\AdminDatabaseMethods.class
+com\homeofgiveawayssqlite\OrganizeDBMethods.class
+com\homeofgiveawayssqlite\AddGiveaway.class
 com\homeofgiveawayssqlite\DatabaseMethods.class
+com\homeofgiveawayssqlite\DeleteGiveaway.class
+com\homeofgiveawayssqlite\Giveaway.class
+com\homeofgiveawayssqlite\GiveawayTypeSelection.class
+com\homeofgiveawayssqlite\GiveawayTypeUI.class
 com\homeofgiveawayssqlite\MainClass.class
-com\homeofgiveawayssqlite\ArvontaLuonti.class
 com\homeofgiveawayssqlite\DBorderUI.class
-com\homeofgiveawayssqlite\giveawayTypeUI.class
 com\homeofgiveawayssqlite\UI.class
