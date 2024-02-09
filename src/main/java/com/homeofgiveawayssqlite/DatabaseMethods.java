@@ -84,4 +84,7 @@ public class DatabaseMethods {
         }
         return unixDate;
     }
+    public Connection getConnection() {
+        return connection;
+    }
 }

@@ -17,7 +17,7 @@ public class DBorderUI {
                 break;
             }
             else if (option.equals("1") || option.equals("2")) {
-                organizeDBMethods organizeDBMethods = new organizeDBMethods();
+                OrganizeDBMethods organizeDBMethods = new OrganizeDBMethods();
                 if (option.equals("1")) {
                     organizeDBMethods.orderEndingSoonestDB(type);
                     System.out.println("The giveaways are now ordered by the soonest ending!");

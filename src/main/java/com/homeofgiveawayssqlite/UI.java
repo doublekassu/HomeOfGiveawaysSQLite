@@ -17,7 +17,7 @@ public class UI{
                 break;
             }
             else if (option.equals("1")) {
-                giveawayTypeUI typeUI = new giveawayTypeUI();
+                GiveawayTypeUI typeUI = new GiveawayTypeUI();
                 typeUI.giveawayTypeMenu();
             }
             else if (option.equals("2")) {

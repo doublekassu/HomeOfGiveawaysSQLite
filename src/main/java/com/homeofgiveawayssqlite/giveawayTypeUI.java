@@ -1,10 +1,10 @@
 package com.homeofgiveawayssqlite;
 import java.util.Scanner;
 
-public class giveawayTypeUI {
+public class GiveawayTypeUI {
     private Scanner scanner;
 
-    public giveawayTypeUI() {
+    public GiveawayTypeUI() {
         scanner = new Scanner(System.in);
     }
     public void giveawayTypeMenu() {

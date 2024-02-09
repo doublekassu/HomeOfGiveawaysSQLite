@@ -5,12 +5,12 @@ import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.Statement;
 
-public class organizeDBMethods {
+public class OrganizeDBMethods {
     private String url;
     private String userName;
     private String password;
 
-    public organizeDBMethods() {
+    public OrganizeDBMethods() {
         this.url = "jdbc:mysql://localhost:3306/";
         this.userName = "root";
         this.password = "n09KKJa11117GQ0OoPmV7:,5tU(";
