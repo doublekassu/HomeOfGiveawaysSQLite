@@ -1,12 +1,13 @@
+com\homeofgiveawayssqlite\Giveaway.class
+com\homeofgiveawayssqlite\GiveawayTypeSelection.class
+com\homeofgiveawayssqlite\CheckEndedGiveaways.class
+com\homeofgiveawayssqlite\DBorderUI.class
 com\homeofgiveawayssqlite\AdminDatabaseMethods.class
 com\homeofgiveawayssqlite\AddGiveaway.class
 com\homeofgiveawayssqlite\DatabaseMethods.class
 com\homeofgiveawayssqlite\DeleteGiveaway.class
-com\homeofgiveawayssqlite\Giveaway.class
-com\homeofgiveawayssqlite\GiveawayTypeSelection.class
 com\homeofgiveawayssqlite\GiveawayTypeUI.class
 com\homeofgiveawayssqlite\OrderByDBMethods.class
 com\homeofgiveawayssqlite\MainClass.class
 com\homeofgiveawayssqlite\test.class
-com\homeofgiveawayssqlite\DBorderUI.class
 com\homeofgiveawayssqlite\UI.class
