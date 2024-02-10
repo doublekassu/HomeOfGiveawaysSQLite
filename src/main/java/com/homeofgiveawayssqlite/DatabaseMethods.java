@@ -87,4 +87,7 @@ public class DatabaseMethods {
     public Connection getConnection() {
         return connection;
     }
+    public Statement getStatement() {
+        return statement;
+    }
 }

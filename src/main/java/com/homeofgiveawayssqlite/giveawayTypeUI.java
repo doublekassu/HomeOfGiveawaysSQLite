@@ -15,13 +15,13 @@ public class GiveawayTypeUI {
                 break;
             }
             else if (option.equals("1") || option.equals("2")) {
-                GiveawayTypeSelection arvontaluonti = new GiveawayTypeSelection(option);
-                arvontaluonti.typeSelection(option);
+                GiveawayTypeSelection giveawayTypeSelection = new GiveawayTypeSelection(option);
+                giveawayTypeSelection.typeSelection(option);
                 System.out.print("Would you like to organize the giveaways? Type yes or no: ");
                 String option2 = scanner.nextLine();
                 if (option2.equals("yes")) {
                     DBorderUI DBorderUI = new DBorderUI();
-                    DBorderUI.orderTypeMenu(arvontaluonti.returnOption());
+                    DBorderUI.orderTypeMenu(giveawayTypeSelection.returnOption());
                 }
                 else if (option2.equals("no")) {
                     System.out.println("\n Giveaways are currently organized by when they were added to the database.");

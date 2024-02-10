@@ -17,13 +17,16 @@ public class DBorderUI {
                 break;
             }
             else if (option.equals("1") || option.equals("2")) {
-                OrganizeDBMethods organizeDBMethods = new OrganizeDBMethods();
+                OrderByDBMethods orderDBMethods = new OrderByDBMethods();
                 if (option.equals("1")) {
-                    organizeDBMethods.orderEndingSoonestDB(type);
+                    orderDBMethods.orderEndingSoonestDB(type);
                     System.out.println("The giveaways are now ordered by the soonest ending!");
+                    break;
                 }
                 else {
-                    //organizeDBMethdos.orderStartDateDB(type);
+                    orderDBMethods.orderStartedFirstDB(type);
+                    System.out.println("The giveaways are now ordered by their start dates!");
+                    break;
                 }
             }
             else {

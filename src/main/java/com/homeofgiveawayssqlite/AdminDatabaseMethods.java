@@ -16,6 +16,15 @@ public class AdminDatabaseMethods {
         else if (option.equals("2")) {
             DeleteGiveaway deleteGiveaway = new DeleteGiveaway();
             deleteGiveaway.DeleteGiveawayDB(databaseMethods, scanner);
-        } 
+        }
+        /*
+        else if (option.equals("3")) {
+            //CheckEndedGiveaways CheckEndedGiveawaysDB = new CheckEndedGiveaways(databaseMethods, scanner) {
+            }
+        }
+        else {
+            System.out.println("Incorrect input, try again!");
+        }
+        */
     }
 }

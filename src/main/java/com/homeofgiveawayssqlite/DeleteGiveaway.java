@@ -13,7 +13,7 @@ public class DeleteGiveaway {
             if (link.equals("0")) {
                 break;
             }
-
+            
             //Query to get the information of the giveaway
             String selectSql = "SELECT * FROM GIVEAWAY WHERE link = ?";
             try (PreparedStatement selectStatement = databaseMethods.getConnection().prepareStatement(selectSql)) {
