@@ -35,6 +35,7 @@ public class DatabaseMethods {
     }
     
     public void iterateQuery(ResultSet resultSet) {
+        //Resultset is the query for the database. Example Resultset resultSet = "SELECT * FROM GIVEAWAY"; iterateQuery(resultSet);
         try {
             ResultSetMetaData rsmd = resultSet.getMetaData();
             int columnsNumber = rsmd.getColumnCount();

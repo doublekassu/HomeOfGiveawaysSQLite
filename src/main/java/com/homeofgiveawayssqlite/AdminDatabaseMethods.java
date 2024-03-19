@@ -7,7 +7,7 @@ public class AdminDatabaseMethods {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         DatabaseMethods databaseMethods = new DatabaseMethods();
-        System.out.print("1. Add a giveaway. 2. Delete a giveaway: ");
+        System.out.print("1. Add a giveaway 2. Delete a giveaway 3. Check ended giveaways: ");
         String option = scanner.nextLine();
         if (option.equals("1")) {
             AddGiveaway addGiveaway = new AddGiveaway();
@@ -17,14 +17,13 @@ public class AdminDatabaseMethods {
             DeleteGiveaway deleteGiveaway = new DeleteGiveaway();
             deleteGiveaway.DeleteGiveawayDB(databaseMethods, scanner);
         }
-        /*
+        
         else if (option.equals("3")) {
-            //CheckEndedGiveaways CheckEndedGiveawaysDB = new CheckEndedGiveaways(databaseMethods, scanner) {
-            }
+            CheckEndedGiveaways CheckEndedGiveaways = new CheckEndedGiveaways();
+            CheckEndedGiveaways.checkEndedGiveawaysDB();
         }
         else {
             System.out.println("Incorrect input, try again!");
         }
-        */
     }
 }
