@@ -1,6 +1,6 @@
 package com.homeofgiveawayssqlite;
 import java.util.Scanner;
-
+//.
 public class GiveawayTypeUI {
     private Scanner scanner;
 
