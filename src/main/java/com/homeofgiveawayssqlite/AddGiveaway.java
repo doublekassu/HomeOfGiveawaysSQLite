@@ -1,6 +1,5 @@
 package com.homeofgiveawayssqlite;
 
-import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Scanner;
@@ -18,9 +17,9 @@ public class AddGiveaway {
             System.out.print("type (CS2SKIN OR TECH): ");
             String type = scanner.nextLine();
             System.out.print("Startdate (yyyy-mm-dd): ");
-            Date startDate = Date.valueOf(scanner.nextLine());
+            String startDate = scanner.nextLine();
             System.out.print("Enddate (yyyy-mm-dd): ");
-            Date endDate = Date.valueOf(scanner.nextLine());
+            String endDate = scanner.nextLine();
 
             String insertSql = "INSERT INTO GIVEAWAY(Link, Organizer, Type, StartDate, EndDate) VALUES (?, ?, ?, ?, ?)";
 
@@ -28,8 +27,8 @@ public class AddGiveaway {
                 preparedStatement.setString(1, link);
                 preparedStatement.setString(2, organizer);
                 preparedStatement.setString(3, type);
-                preparedStatement.setDate(4, startDate);
-                preparedStatement.setDate(5, endDate);
+                preparedStatement.setString(4, startDate);
+                preparedStatement.setString(5, endDate);
                 
                 //Exec the insertion
                 preparedStatement.executeUpdate();

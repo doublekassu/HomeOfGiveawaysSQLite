@@ -34,3 +34,6 @@ try (Connection connection = DriverManager.getConnection(url)) {
     }
 } 
 catch
+
+cmd:
+INSERT INTO GIVEAWAY (Link, Organizer, Type, StartDate, EndDate) VALUES ('https://twitter.com/yosoykush/status/177244620955632035722', 'yosoykush', 'CS2SKIN', 1711404000000|, 2024-03-30);

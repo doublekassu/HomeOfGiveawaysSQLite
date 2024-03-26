@@ -1,7 +1,7 @@
 package com.homeofgiveawayssqlite;
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.PreparedStatement;
+//import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
@@ -54,10 +54,10 @@ public class DatabaseMethods {
                         System.out.print(" Product: " + columnValue);
                     }
                     else if (i == 4) {
-                        System.out.print(" Start date: " + formatUnixDate(columnValue));
+                        System.out.print(" Start date: " + columnValue);
                     }
                     else {
-                        System.out.print(" End date: " + formatUnixDate(columnValue));
+                        System.out.print(" End date: " + columnValue);
                     }
                 }
                 System.out.println("");
@@ -67,24 +67,7 @@ public class DatabaseMethods {
             e.printStackTrace();
         }
     }
-
-    //Thankfully this works. Without this the date would be in non-readable unix syntax
-    private String formatUnixDate(String unixDate) {
-        // SQL query to format Unix timestamp to "YYYY-MM-DD"
-        String sqlQuery = "SELECT strftime('%Y-%m-%d', datetime(? / 1000, 'unixepoch')) AS FormattedDate";
-
-        try (PreparedStatement preparedStatement = connection.prepareStatement(sqlQuery)) {
-            preparedStatement.setString(1, unixDate);
-            try (ResultSet resultSet = preparedStatement.executeQuery()) {
-                if (resultSet.next()) {
-                    return resultSet.getString("FormattedDate");
-                }
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return unixDate;
-    }
+    
     public Connection getConnection() {
         return connection;
     }
